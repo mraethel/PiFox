@@ -25,6 +25,8 @@ Using your favourite Linux package manager, install:
 * arm-none-eabi-binutils
 * cmake
 
+Compiling on a non-Raspbian machine use `cmake -DCMAKE_TOOLCHAIN_FILE=../toolchains/arm-none-eabi.cmake ..` instead of `cmake ..`.
+
 Build
 -----
 

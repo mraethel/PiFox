@@ -1,4 +1,4 @@
-#!/usr/bin/python2
+#!/usr/bin/python3
 
 """
 This file is part of the Team 28 Project
@@ -36,8 +36,8 @@ def main():
     f.write(struct.pack('<II', height, width))
 
     # Write data
-    for y in xrange(height):
-        for x in xrange(width):
+    for y in range(height):
+        for x in range(width):
             r, g, b, a = image.getpixel((x, y))
 
             assert 0 <= r < 256
