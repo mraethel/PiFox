@@ -36,7 +36,7 @@ GNU as syntax.
     cmake ..
     make
     
-Compiling on a non-Raspbian machine use the `-DCMAKE_TOOLCHAIN_FILE=../toolchains/arm-none-eabi.cmake` argument to cmake.
+Building on a non-Raspbian machine use the `-DCMAKE_TOOLCHAIN_FILE=../toolchains/arm-none-eabi.cmake` argument to cmake.
 
 Emulation
 -----
